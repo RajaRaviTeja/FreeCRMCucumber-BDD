@@ -10,9 +10,9 @@ import cucumber.api.junit.Cucumber;
 		dryRun=false,
 		strict=true,
 		monochrome=true,
-		features = "src/main/java/Features/contacts.feature",
+		features = "src/main/java/Features/deals.feature",
 		glue={"stepDefinations"}
-		,format={"pretty","html:test-output/cucumber.html","json:json-output/cucumber.json","junit:junit-output/cucumber.xml"}
+		,plugin={"pretty","html:test-output/cucumber.html","json:json-output/cucumber.json","junit:junit-output/cucumber.xml"}
 		)
 
 public class TestRunner {

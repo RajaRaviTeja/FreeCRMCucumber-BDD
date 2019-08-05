@@ -1,31 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="78.708716">
-<testcase classname="Free CRM Create Contacts" name="User is able to create new contact" time="40.251439">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="49.973752">
+<testcase classname="FreeCRM Create deals data" name="Deals data creation" time="49.973752">
 <system-out><![CDATA[Given User is on LoginPage..................................................passed
 Then Click Login Button on prelogin page....................................passed
 Then User entered "xcardtier1@gmail.com" and "Test@123".....................passed
 Then User clicks on login button............................................passed
-And user is on home page....................................................passed
-Then Title on HonmePage is Free CRM.........................................passed
-When User should click Contacts link........................................passed
-Then User should navigate to Contacts page..................................passed
-Then User should see Contact page details displayed completely..............passed
+Then user is on home page...................................................passed
+Then User moves to Deals link...............................................passed
 When User click New Button..................................................passed
-When Enter "firstName1" and "lastname1"  and "emailId1@email.com" then click Save.passed
-Then signOut and closeBrowser...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Create Contacts" name="User is able to create new contact 2" time="38.457277">
-<system-out><![CDATA[Given User is on LoginPage..................................................passed
-Then Click Login Button on prelogin page....................................passed
-Then User entered "xcardtier1@gmail.com" and "Test@123".....................passed
-Then User clicks on login button............................................passed
-And user is on home page....................................................passed
-Then Title on HonmePage is Free CRM.........................................passed
-When User should click Contacts link........................................passed
-Then User should navigate to Contacts page..................................passed
-Then User should see Contact page details displayed completely..............passed
-When User click New Button..................................................passed
-When Enter "firstName2" and "lastname2"  and "emailId2@email.com" then click Save.passed
+Then User enters deals details on deals page and click save.................passed
 Then signOut and closeBrowser...............................................passed
 ]]></system-out>
 </testcase>

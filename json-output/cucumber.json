@@ -3,43 +3,43 @@
     "line": 1,
     "elements": [
       {
-        "line": 21,
-        "name": "User is able to create new contact",
+        "line": 3,
+        "name": "Deals data creation",
         "description": "",
-        "id": "free-crm-create-contacts;user-is-able-to-create-new-contact;;2",
+        "id": "freecrm-create-deals-data;deals-data-creation",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8551250900,
+              "duration": 23703455300,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User is on LoginPage",
             "match": {
-              "location": "LoginDefination.user_is_on_LoginPage()"
+              "location": "DealsDefination.user_is_on_LoginPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15312727600,
+              "duration": 16301220899,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "Click Login Button on prelogin page",
             "match": {
-              "location": "LoginDefination.click_Login_Button_on_prelogin_page()"
+              "location": "DealsDefination.click_Login_Button_on_prelogin_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 394870900,
+              "duration": 587213899,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User entered \"xcardtier1@gmail.com\" and \"Test@123\"",
             "match": {
               "arguments": [
@@ -52,327 +52,99 @@
                   "offset": 41
                 }
               ],
-              "location": "LoginDefination.user_entered_Username_and_Password(String,String)"
+              "location": "DealsDefination.user_entered_Username_and_Password(String,String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 88287000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User clicks on login button",
-            "match": {
-              "location": "LoginDefination.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1255587700,
+              "duration": 75838800,
               "status": "passed"
             },
             "line": 8,
-            "name": "user is on home page",
-            "match": {
-              "location": "LoginDefination.user_is_on_home_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 9136700,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Title on HonmePage is Free CRM",
-            "match": {
-              "location": "LoginDefination.title_on_HonmePage_is_Free_CRM()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 403043000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User should click Contacts link",
-            "match": {
-              "location": "LoginDefination.user_should_click_Contacts_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 39464900,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User should navigate to Contacts page",
-            "match": {
-              "location": "LoginDefination.user_should_navigate_to_Contacts_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 71699900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User should see Contact page details displayed completely",
-            "match": {
-              "location": "LoginDefination.user_should_see_Contact_page_details_displayed_completely()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 218910400,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User click New Button",
-            "match": {
-              "location": "LoginDefination.user_click_New_Button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 12716977200,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Enter \"firstName1\" and \"lastname1\"  and \"emailId1@email.com\" then click Save",
-            "match": {
-              "arguments": [
-                {
-                  "val": "firstName1",
-                  "offset": 7
-                },
-                {
-                  "val": "lastname1",
-                  "offset": 24
-                },
-                {
-                  "val": "emailId1@email.com",
-                  "offset": 41
-                }
-              ],
-              "location": "LoginDefination.enter_and_and_then_click_Save(String,String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1,
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1189482400,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "signOut and closeBrowser",
-            "match": {
-              "location": "LoginDefination.signout_and_closeBrowser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 22,
-        "name": "User is able to create new contact",
-        "description": "",
-        "id": "free-crm-create-contacts;user-is-able-to-create-new-contact;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6189123400,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on LoginPage",
-            "match": {
-              "location": "LoginDefination.user_is_on_LoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 15568175700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Click Login Button on prelogin page",
-            "match": {
-              "location": "LoginDefination.click_Login_Button_on_prelogin_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 422814900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User entered \"xcardtier1@gmail.com\" and \"Test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "xcardtier1@gmail.com",
-                  "offset": 14
-                },
-                {
-                  "val": "Test@123",
-                  "offset": 41
-                }
-              ],
-              "location": "LoginDefination.user_entered_Username_and_Password(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 87477600,
-              "status": "passed"
-            },
-            "line": 7,
             "name": "User clicks on login button",
             "match": {
-              "location": "LoginDefination.user_clicks_on_login_button()"
+              "location": "DealsDefination.user_clicks_on_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1294299100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user is on home page",
-            "match": {
-              "location": "LoginDefination.user_is_on_home_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11235900,
+              "duration": 1630450200,
               "status": "passed"
             },
             "line": 9,
-            "name": "Title on HonmePage is Free CRM",
+            "name": "user is on home page",
             "match": {
-              "location": "LoginDefination.title_on_HonmePage_is_Free_CRM()"
+              "location": "DealsDefination.user_is_on_home_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 466495200,
+              "duration": 481054800,
               "status": "passed"
             },
             "line": 11,
-            "name": "User should click Contacts link",
+            "name": "User moves to Deals link",
             "match": {
-              "location": "LoginDefination.user_should_click_Contacts_link()"
+              "location": "DealsDefination.user_moves_to_Deals_link()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9569200,
+              "duration": 360395499,
               "status": "passed"
             },
             "line": 12,
-            "name": "User should navigate to Contacts page",
+            "name": "User click New Button",
             "match": {
-              "location": "LoginDefination.user_should_navigate_to_Contacts_page()"
+              "location": "DealsDefination.user_click_New_Button()"
             },
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 91050700,
+              "duration": 5516242600,
               "status": "passed"
             },
             "line": 13,
-            "name": "User should see Contact page details displayed completely",
+            "name": "User enters deals details on deals page and click save",
             "match": {
-              "location": "LoginDefination.user_should_see_Contact_page_details_displayed_completely()"
+              "location": "DealsDefination.user_enters_deals_details_on_deals_page_and_click_save(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Mr",
+                  "500",
+                  "10"
+                ],
+                "line": 14
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 274781300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User click New Button",
-            "match": {
-              "location": "LoginDefination.user_click_New_Button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 12782716100,
+              "duration": 1317880400,
               "status": "passed"
             },
             "line": 15,
-            "name": "Enter \"firstName2\" and \"lastname2\"  and \"emailId2@email.com\" then click Save",
-            "match": {
-              "arguments": [
-                {
-                  "val": "firstName2",
-                  "offset": 7
-                },
-                {
-                  "val": "lastname2",
-                  "offset": 24
-                },
-                {
-                  "val": "emailId2@email.com",
-                  "offset": 41
-                }
-              ],
-              "location": "LoginDefination.enter_and_and_then_click_Save(String,String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1,
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1259538100,
-              "status": "passed"
-            },
-            "line": 16,
             "name": "signOut and closeBrowser",
             "match": {
-              "location": "LoginDefination.signout_and_closeBrowser()"
+              "location": "DealsDefination.signout_and_closeBrowser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Free CRM Create Contacts",
+    "name": "FreeCRM Create deals data",
     "description": "",
-    "id": "free-crm-create-contacts",
+    "id": "freecrm-create-deals-data",
     "keyword": "Feature",
-    "uri": "src/main/java/Features/contacts.feature"
+    "uri": "src/main/java/Features/deals.feature"
   }
 ]

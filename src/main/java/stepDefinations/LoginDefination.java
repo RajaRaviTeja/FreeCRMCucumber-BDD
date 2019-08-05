@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -145,8 +146,25 @@ public class LoginDefination {
 		Thread.sleep(5000);
 	}
 
-	
-	
+	@Then("^User moves to Deals link$")
+	public void user_moves_to_Deals_link() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		driver.findElement(By.xpath("//a[@href='/deals']")).click();
+	 
+	}
+
+	@Then("^User enters deals details on deals page and click save$")
+	public void user_enters_deals_details_on_deals_page_and_click_save(DataTable dealData) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		List<List<String>> dealDataAsListOfList= dealData.raw();
+		 	
+		driver.findElement(By.xpath("//input[@name='title']")).sendKeys(dealDataAsListOfList.get(0).get(0));
+		driver.findElement(By.xpath("//input[@name='amount']")).sendKeys(dealDataAsListOfList.get(0).get(1));
+		driver.findElement(By.xpath("//input[@name='commission']")).sendKeys(dealDataAsListOfList.get(0).get(2));
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//button[contains(text(),'Save')]"));
+	}
+	 
 	@Then("^signOut and closeBrowser$")
 	public void signout_and_closeBrowser() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
